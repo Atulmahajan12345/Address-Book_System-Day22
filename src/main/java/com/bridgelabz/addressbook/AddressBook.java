@@ -1,5 +1,4 @@
 package com.bridgelabz.addressbook;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -145,7 +144,7 @@ public class AddressBook {
 
 		while (!inputMatcher.matches()) {
 			System.out.println("Error: Invalid first name, please try again");
-			System.out.println("length must not exceeds 10 (Exa: Karthik)");
+			System.out.println("length must not exceeds 10 (Exa: Kishlay)");
 			firstName = scanner.nextLine();
 			inputMatcher = regex.matcher(firstName);
 		}
