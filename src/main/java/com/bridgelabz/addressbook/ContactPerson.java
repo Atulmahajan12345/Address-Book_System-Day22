@@ -1,5 +1,4 @@
 package com.bridgelabz.addressbook;
-
 public class ContactPerson {
 	private String firstName;
 	private String lastName;
@@ -95,4 +94,5 @@ public class ContactPerson {
 				+ city + ", state=" + state + ", email=" + email + ", zip=" + zip + ", phoneNumber=" + phoneNumber
 				+ "]";
 	}
+
 }
